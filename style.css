@@ -1,0 +1,511 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .header-img {
+    height: 700px;
+    /* width: 100vw; */
+    background: url("https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  
+  .img {
+    color: #ba7967;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .bar:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #ba7967;
+    opacity: 0.5;
+    color: black;
+  }
+  
+  .title {
+    font-family: cursive;
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    left: 0%;
+    right: 0%;
+    top: 42%;
+    background-color: #323232;
+    opacity: 0.5;
+  }
+  
+  .title:hover {
+    opacity: 1;
+  }
+  
+  .content {
+    margin-left: 20%;
+    font-family: cursive;
+  }
+  
+  .content1 {
+    margin-left: 30%;
+    font-family: cursive;
+  }
+  
+  .reserve {
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    bottom: 29%;
+  }
+  
+  .reserve:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .menu {
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    bottom: 29%;
+    color: black;
+    padding: 5px;
+  }
+  
+  .menu:hover {
+    color: black;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .intro {
+    text-align: center;
+    margin: 5%;
+    font-family: "Amethysta", serif;
+  }
+  
+  .details {
+    margin-top: 10%;
+    text-align: center;
+  }
+  
+  .reviews {
+    padding: 4% 3%;
+    padding-bottom: 0.8%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #f0e3c4;
+  }
+  
+  .text {
+    font-family: "Fredoka One", cursive;
+    text-align: center;
+    color: #420000;
+  }
+  
+  .reviews-text {
+    font-family: "Amiri", serif;
+    color: #382039;
+  }
+  
+  .reviews-image {
+    border-radius: 100%;
+    width: 100px;
+    margin: 2%;
+  }
+  
+  .carousel-item {
+    padding: 2% 2%;
+  }
+  
+ .reserve-heading{
+    color: #c5b35b;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 5em;
+    padding-top: 5%;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+  
+  .book {
+    width: 150px;
+    height: 40px;
+    margin-left: 45%;
+    background-color: #c1a57b;
+    color: white;
+    border: none;
+  }
+  
+  .book:hover {
+    color: black;
+    background-color: #c1a57b;
+  }
+  
+  .form-row,
+  .form-group {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  #contact {
+    color: #c5b35b;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  
+  .cb {
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: #c1a57b;
+    color: white;
+  }
+  
+  .cb:hover {
+    color: black;
+    background-color: #c1a57b;
+  }
+  
+  #last {
+    text-align: center;
+    margin-top: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #c1a57b;
+  }
+  
+  .fa-2x {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+  }
+  
+  .fa-instagram:hover {
+    color: #ad1c95;
+  }
+  
+  .fa-facebook:hover {
+    color: blue;
+  }
+  
+  .fa-twitter:hover {
+    color: #2bb2bb;
+  }
+  
+  .fa-envelope-square:hover {
+    color: red;
+  }
+  
+  #grill {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.3em;
+  }
+  
+  .menudes {
+    color: #c5b35b;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 2%;
+  }
+  
+  .mcont {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  
+  .card-title {
+    font-weight: normal;
+    font-size: medium;
+  }
+  
+  .price {
+    font-weight: bolder;
+    font-size: medium;
+  }
+  
+  .food-image {
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .alert {
+    margin-top: 2%;
+  }
+  
+  .notconfirm {
+    margin-left: 20%;
+  }
+  
+  .box {
+    margin-top: 3%;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  
+  .box h2,
+  h3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .box p {
+    color: #c1a57b;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  
+  #confirm {
+    color: #c5b35b;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 2%;
+  }
+  
+  #slide {
+    padding-top: 4%;
+    padding-left: 5%;
+  }
+  
+  .testimonial-image {
+    width: 75%;
+    height: 550px;
+    margin-left: 48px;
+    margin-right: none;
+  }
+  
+  .space {
+    margin-bottom: 3%;
+  }
+  
+  .place {
+    width: 70%;
+    height: 250px;
+  }
+  .dir{
+    margin-left: 1%;
+  }
+  .map {
+    width: 20%;
+  }
+  .new{
+      margin-top: 10%;
+      height: 45vh;
+      width: 100%;
+      font-size: 50px;
+  }
+  .newbox{
+    height: 96vh;
+    width: 100vw;
+    background-color: #c1a57b63;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .new-image{
+    width: 45%;
+    height: 550px;
+    margin-top: 5%;
+    margin-left: 38px;
+    margin-right: none;
+  }
+  .table{
+    background-color: white;
+  }
+  .new-header {
+    height: 700px;
+    background-color: #f0eee363;
+  }
+  .detailsA{
+    /* margin-right: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .format{
+    /* text-align: center; */
+    height: 20px;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: #b4ab7e3b;
+    border: none;
+    /* padding-right: 100px; */
+  }
+  .confirm{
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 50px;
+    font-size: 40px;
+  }
+  @media (max-width: 769px) {
+    .header-img {
+      height: 600px;
+    }
+  
+    .logo {
+      font-size: medium;
+    }
+  
+    .bar {
+      font-size: small;
+    }
+  
+    .navbar-expand-lg {
+      padding-left: 5%;
+      padding-bottom: 1%;
+      padding-top: 1%;
+    }
+  
+    .navbar-toggler {
+      font-size: 0.1rem;
+    }
+  
+    .title {
+      top: 38%;
+    }
+  
+    .title h1,
+    h3 {
+      font-size: large;
+    }
+  
+    .reserve {
+      font-size: x-small;
+      left: 2%;
+    }
+  
+    .menu {
+      font-size: small;
+      left: 35%;
+    }
+  
+    .intro {
+      font-size: medium;
+    }
+  
+    .details h5,
+    p {
+      font-size: medium;
+    }
+  
+    .text {
+      font-size: medium;
+    }
+  
+    .reviews-text {
+      font-size: small;
+    }
+  
+    .reviews-image {
+      width: 80px;
+    }
+  
+    .carousel-item {
+      padding: 0% 0%;
+    }
+  
+    em {
+      font-size: small;
+    }
+  
+    #reserve,
+    #contact {
+      font-size: 3em;
+    }
+  
+    .heading {
+      font-size: small;
+    }
+  
+    .book,
+    .cb {
+      margin-left: 35%;
+      font-size: smaller;
+    }
+  
+    .form-row,
+    .form-group {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+  
+    .card-title {
+      font-weight: normal;
+      font-size: small;
+    }
+  
+    .price {
+      font-weight: bold;
+      font-size: smaller;
+    }
+  
+    .food-image {
+      width: 70px;
+      height: 70px;
+    }
+  
+    #menu,
+    #confirm {
+      font-size: 2em;
+    }
+  
+    .box h2 {
+      font-size: larger;
+    }
+  
+    .box h3 {
+      font-size: small;
+    }
+  
+    .box p {
+      font-weight: bolder;
+      font-size: 1.4em;
+    }
+    .space{
+        width: 114%;
+    }
+    .dir, .space{
+        margin-left: 10%;
+    }
+    .testimonial-image {
+      width: 90%;
+      height: 0px;
+      margin-left: 2%;
+      margin-bottom: 4%;
+    }
+    .new{
+        margin-top: 10%;
+      height: 45vh;
+      width: 100%;
+      font-size: 23px;
+      margin-bottom: 35%;
+    }
+  }
+  
+  
